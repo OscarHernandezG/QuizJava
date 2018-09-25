@@ -67,6 +67,9 @@ public class QuizActivity extends AppCompatActivity {
             case R.id.checkMenu:
                 checkAnswer();
                 break;
+            case R.id.reset:
+                respuestasView.clearCheck();
+                break;
         }
 
         return true;
